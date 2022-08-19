@@ -1,0 +1,40 @@
+package com.java1;
+
+public class AreaCircle {
+	public static void main(String args[])
+	{
+		float r=2.5f,m;
+		float i=3.14f;
+		m=2*i*r;
+		System.out.println("The area of the circle is" +m);
+	}
+
+}
+Output-->The area of the circle is15.700001
+
+package com.java1;
+
+public class InchesToMeters {
+public static void main(String args[])
+{
+	float i=20.02f,m;
+	m=i*0.0254f;
+	System.out.println(m);
+}
+}
+
+Output-->0.508508
+
+package com.java1;
+
+public class Temperature {
+	public static void main(String args[])
+	{
+		int f=-40,c;
+		c=(f-32)*5/9;
+		System.out.println("The temperature in celcius is" +c);
+	}
+
+}
+
+Output-->The temperature in celcius is-40
